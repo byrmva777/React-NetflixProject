@@ -1,0 +1,98 @@
+{
+    "entryTitle": "Limitsiz filmlər, TV şouları və daha çox",
+    "entrySubtitle": "Ayda cəmi 6.99 EUR. İstənilən vaxt ləğv edə bilərsiniz.",
+    "readyToWatch": "İzləməyə hazırsınız? Abunəliyinizi yaratmaq və ya bərpa etmək üçün e-poçtunuzu daxil edin.",
+    "getStarted": "Başla",
+    "trendingNow": "İndi Məşhurdur",
+    "movie": "Film",
+    "tvShows": "Tv şou",
+    "emailPlaceHolder" : "Email",
+    "sign_in": "Daxil ol",
+    "reasonsToJoin": {
+      "title": "Qoşulmaq üçün daha çox səbəb",
+      "enjoyOnTv": {
+        "title": "TV-də izləyin",
+        "description": "Smart TV-lərdə, Playstation, Xbox, Chromecast, Apple TV, Blu-ray pleyerlərdə və digər cihazlarda izləyin."
+      },
+      "downloadToWatchOffline": {
+        "title": "Şouları oflayn izləmək üçün yükləyin",
+        "description": "Sevimlilərinizi saxlayın və həmişə izləmək üçün bir şeyiniz olsun."
+      },
+      "watchEverywhere": {
+        "title": "Hər yerdə izləyin",
+        "description": "Telefon, planşet, noutbuk və TV-də limitsiz axın."
+      },
+      "profilesForKids": {
+        "title": "Uşaqlar üçün profillər yaradın",
+        "description": "Uşaqların öz sevimli personajları ilə macəralar kəşf etməsinə icazə verin – üzvlüyünüzlə pulsuzdur."
+      }
+    },
+    "faq": {
+      "title": "Tez-tez verilən suallar",
+      "questions": [
+        {
+          "title": "Netflix nədir?",
+          "description": "Netflix, internetə qoşulan minlərlə cihazda mükafat qazanan TV şouları, filmlər, anime, sənədli filmlər və daha çoxunu təqdim edən axın xidmətidir. İstədiyiniz qədər, istədiyiniz zaman, heç bir reklam olmadan izləyə bilərsiniz – hamısı bir aşağı aylıq qiymətə. Həmişə kəşf etmək üçün yeni bir şey var və hər həftə yeni TV şouları və filmlər əlavə olunur!",
+          "id": 1
+        },
+        {
+          "title": "Netflix-in qiyməti nə qədərdir?",
+          "description": "Netflix-i smartfon, planşet, Smart TV, noutbuk və ya axın cihazında izləyin – hamısı bir sabit aylıq ödənişə. Planlar ayda 7.99 EUR-dan 11.99 EUR-a qədərdir (vergilər daxil deyil). Əlavə xərclər və ya müqavilələr yoxdur.",
+          "id": 2
+        },
+        {
+          "title": "Harada izləyə bilərəm?",
+          "description": "Hər yerdə, hər zaman izləyin. Netflix hesabınıza daxil olun və şəxsi kompüterinizdə və ya Netflix proqramı təklif edən istənilən internetə qoşulan cihazda dərhal izləyin, o cümlədən smart TV-lər, smartfonlar, planşetlər, axın media pleyerləri və oyun konsolları. İOS və ya Android proqramı ilə sevimli şoularınızı yükləyin. Yükləmələrdən yolda və internet bağlantısı olmadan izləmək üçün istifadə edin. Netflix-i hər yerə aparın.",
+          "id": 3
+        },
+        {
+          "title": "Necə ləğv edə bilərəm?",
+          "description": "Netflix çevikdir. Əsəbi müqavilələr və öhdəliklər yoxdur. Hesabınızı onlayn olaraq iki kliklə asanlıqla ləğv edə bilərsiniz. Heç bir ləğv haqqı yoxdur – hesabınızı istənilən vaxt başlayın və ya dayandırın.",
+          "id": 4
+        },
+        {
+          "title": "Netflix-də nə izləyə bilərəm?",
+          "description": "Netflix-də bədii filmlər, sənədli filmlər, TV şouları, anime, mükafat qazanan Netflix orijinalları və daha çoxunun geniş kitabxanası var. İstədiyiniz qədər, istədiyiniz vaxt izləyin.",
+          "id": 5
+        },
+        {
+          "title": "Netflix uşaqlar üçün uyğundurmu?",
+          "description": "Netflix Uşaqlar təcrübəsi üzvlüyünüzə daxildir və valideynlərə nəzarət imkanı verir, uşaqlar isə ailə dostu TV şoularını və filmlərini öz məkanlarında izləyirlər. Uşaq profilləri məzmunun yetkinlik reytinqini məhdudlaşdırmağa və uşaqların görməsini istəmədiyiniz müəyyən başlıqları bloklamağa imkan verən PIN kodlu valideyn nəzarəti ilə gəlir.",
+          "id": 6
+        },
+        {
+          "title": "Niyə bu dili görürəm?",
+          "description": "Burada göstərilən dili brauzer seçimləriniz təyin edir.",
+          "id": 7
+        }
+      ]
+    },
+    "footer": {
+      "readyToWatch": "İzləməyə hazırsınız? Abunəliyinizi yaratmaq və ya bərpa etmək üçün e-poçtunuzu daxil edin.",
+      "contactUs": "Suallarınız var? Bizimlə əlaqə saxlayın.",
+      "links": [
+        "Tez-tez verilən suallar",
+        "İnvestor Əlaqələri",
+        "Hədiyyə Kartları Alın",
+        "Cookie Tercihləri",
+        "Hüquqi Bildirişlər",
+        "Kömək Mərkəzi",
+        "İşlər",
+        "İzləmək Üsulları",
+        "Korporativ Məlumatlar",
+        "Yalnız Netflix-də",
+        "Hesab",
+        "Netflix Mağazası",
+        "İstifadə Şərtləri",
+        "Mənim Şəxsi Məlumatımı Satma və ya Paylaşma",
+        "Media Mərkəzi",
+        "Hədiyyə Kartlarını Aktivləşdirin",
+        "Məxfilik",
+        "Sürət Testi",
+        "Reklam Tercihləri"
+      ],
+      "languageOption": "Azərbaycan dili",
+      "footerBrand": "Netflix Azərbaycan"
+    }
+  }
+  
