@@ -1,19 +1,25 @@
-const CustomSelect = ({selectedOption,setSelectedOption,options,logo}) => {
-   
+import React from "react";
+
+const CustomSelect = ({ selectedOption, setSelectedOption, options }) => {
   return (
-    <div className={`border-[1px] border-zinc-400 focus:outline-white relative bg-zinc-800 w-[135px] ${logo ? "h-full w-[135px]" : "h-[33px] w-[110px]"}  rounded-[4px]`}>
-     {logo && logo}
-        <select onChange={(e) => {
-            setSelectedOption(e.target.value)
-        }} className='w-full h-full opacity-0 hover:cursor-pointer'>
-      
-            {options?.map(item => (<option key={item.value} value={item.value}>{item.title}</option>))}
-
-        </select>
-        <p className={`absolute top-1 ${logo ? "left-10" : "left-2"} text-white pointer-events-none`}> {selectedOption.title} </p>
-        <svg xmlns="http://www.w3.org/2000/svg" className='absolute top-3 right-3 w-[10px] pointer-events-none' viewBox="0 0 512 512"><path fill="#ffffff" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+    <div className="relative w-auto min-w-[150px] max-w-[250px]">
+      <select
+        value={selectedOption.value}
+        onChange={(e) => setSelectedOption(options.find(option => option.value === e.target.value))}
+        className="w-full bg-gray-800 text-white py-2 px-4 rounded-md appearance-none cursor-pointer focus:outline-none focus:ring-2 focus:ring-gray-500"
+      >
+        {options.map((option) => (
+          <option key={option.value} value={option.value}>
+            {option.title}
+          </option>
+        ))}
+      </select>
+    
+      <div className="absolute top-1/2 right-3 transform -translate-y-1/2 pointer-events-none text-white">
+        ▼
+      </div>
     </div>
+  );
+};
 
-  )
-}
-export default CustomSelect
+export default CustomSelect;

@@ -1,7 +1,7 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 
-export const themeStore = create(
+const themeStore = create(
     persist(
         set => (
             {
@@ -15,3 +15,5 @@ export const themeStore = create(
         )
     )
 )
+
+export default themeStore;  

@@ -1,20 +1,28 @@
-import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
-import en from "./en.json";
-import az from "./aze.json";
-import ru from "./ru.json";
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import {en} from './locales/en.json';
+import {aze} from './locales/az.json';
+import {ru} from './locales/ru.json';
 
-i18n.use(initReactI18next).init({
-  resources: {
-    en: { translation: en },
-    az: { translation: az },
-    ru: { translation: ru },
-  },
-  lng: "en", 
-  fallbackLng: "en",
-  interpolation: {
-    escapeValue: false, 
-  },
-});
+i18n
+  .use(initReactI18next)
+  .init({
+    resources: {
+      en: {
+        translation: en, 
+      },
+      aze: {
+        translation: aze, 
+      },
+      ru: {
+        translation: ru, 
+      },
+    },
+    lng: 'en', 
+    fallbackLng: 'en', 
+    interpolation: {
+      escapeValue: false,
+    },
+  });
 
 export default i18n;
